@@ -1,0 +1,28 @@
+{
+  "name": "@next-api-ext/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "kropotovalexey <kropotovalexey@gmail.com>",
+  "homepage": "https://github.com/alexeykropotov/next-api-ext#readme",
+  "license": "ISC",
+  "main": "dist/index.ts",
+  "directories": {
+    "dist": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeykropotov/next-api-ext.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc --project tsconfig.build.json"
+  },
+  "bugs": {
+    "url": "https://github.com/alexeykropotov/next-api-ext/issues"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
