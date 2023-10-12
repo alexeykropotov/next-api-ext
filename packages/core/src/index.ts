@@ -1,3 +1,1 @@
-export class NextApiExt {
-    
-}
+export class NextApiExt {}

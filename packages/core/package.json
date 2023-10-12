@@ -6,9 +6,6 @@
   "homepage": "https://github.com/alexeykropotov/next-api-ext#readme",
   "license": "ISC",
   "main": "dist/index.ts",
-  "directories": {
-    "dist": "lib"
-  },
   "files": [
     "dist"
   ],
@@ -21,8 +18,5 @@
   },
   "bugs": {
     "url": "https://github.com/alexeykropotov/next-api-ext/issues"
-  },
-  "devDependencies": {
-    "typescript": "*"
   }
 }

@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "types": [
+            "@types/node"
+        ],
+        // ensure that nobody can accidentally use this config for a build
+        "noEmit": true,
+        "allowJs": true
+    },
+    "include": [
+        // whatever paths you intend to lint
+        ".eslintrc.js",
+        "**/**/*.js"
+    ],
+}

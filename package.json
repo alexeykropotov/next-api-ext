@@ -5,10 +5,12 @@
     "packages/*"
   ],
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "lint": "eslint ."
   },
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.3.1"
+    "@types/node": "^20.8.4",
+    "lerna": "^7.3.1",
+    "typescript": "^5.2.2"
   }
 }
